@@ -1,3 +1,11 @@
+.bg-snake {
+  background-image: url(https://s1.best-wallpaper.net/wallpaper/m/1803/Snake-viper-black-background_m.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+ 
+}
+
 .container-snake {
   display: flex;
   flex-direction: column;

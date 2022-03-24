@@ -1,20 +1,29 @@
-.menu-games {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid black;
-    height: 500px;
-    width: 20%;
-    background: rgba(187, 211, 214, 0.377);
-    justify-content: space-around;
+.bg-Game {
+  height: 1000px;
+  background-image: url(https://img.wallpapic.fr/i6886-037-511/medium/typographie-noirs-menu-logo-fond-d-ecran.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+.menu-games {
+  display: flex;
+  border: 2px px solid black;
+  background: rgba(138, 193, 201, 0.377);
+  height: 500px;
+  width: 15%;
+}
 
-.snake,.morpion{
-    display: flex;
-    margin: 250px;
-    width: 50%;
-    font-size: 26px;
-    
-   
+.listing-games {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.snake,
+.morpion {
+  text-decoration: none;
+  margin-left: 24px;
+  font-size: 45px;
+  color: rgba(240, 255, 254, 0.664);
 }

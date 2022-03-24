@@ -7,7 +7,7 @@ function Navbar() {
       <a className="tuto-nav" href="">
         Tutoriels
       </a>
-      <a className="game-nav" href={Game}>
+      <a className="game-nav" href="games">
         Jeux
       </a>
       <a className="boutique-nav" href="">

@@ -14,7 +14,7 @@ function Snake() {
   }
 
   return (
-    <div>
+    <div className="bg-snake">
       {modal ? (
         <h1 className="title-snake">
           Jeux du serpent
