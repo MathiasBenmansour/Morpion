@@ -1,0 +1,99 @@
+.container-morpion {
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 80px auto;
+  width: 10%;
+}
+
+.box-1 {
+  margin: 0 auto;
+  font-size: 100px;
+  width: 150px;
+  height: 150px;
+  background: #2222;
+  border: 2px solid #2333;
+}
+
+.next-player {
+  position: absolute;
+  left: 250px;
+  top: 300px;
+  margin-top: 45px;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.modal-score {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 40px;
+  width: 50%;
+  background: #2224;
+}
+.re-game {
+  display: flex;
+  font-style: italic;
+
+  background: #3333;
+  color: rgba(29, 29, 29, 0.699);
+  font-size: 22px;
+  border: none;
+  border-radius: 10%;
+  width: 10%;
+}
+
+.clear-grille {
+  font-style: italic;
+
+  background: #3333;
+  color: rgba(139, 25, 25, 0.5);
+  font-size: 22px;
+  border: none;
+  border-radius: 10%;
+  width: 10%;
+}
+.btn-games {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 26px;
+}
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url(https://i.pinimg.com/550x/00/21/7f/00217fa56dda538f18086408fafd6ac5.jpg);
+  }
+  .title-games{
+    color: rgb(247, 238, 238);
+  }
+  .next-player {
+    position: absolute;
+    top: 150px;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(13, 115, 204);
+  }
+  .box-1 {
+    background-color: rgba(219, 205, 205, 0.877);
+  }
+  .modal-score {
+    background-color: rgba(219, 205, 205, 0.692);
+  }
+  .clear-grille,
+  .restart{
+    width: 15%;
+    font-style: italic;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    background: #000;
+    border: none;
+  }
+  .message-current {
+    color: aliceblue;
+    font-size: 30px;
+  }
+}
