@@ -26,7 +26,7 @@ export default function Morpion() {
   const message = useRef(initialMessage);
 
   let namePlayer = div1 ? player[1] : player[0];
-  
+
   const playerOne = (e) => {
     if (finished) return;
     if (e.target.innerText !== "") return;
@@ -67,14 +67,13 @@ export default function Morpion() {
     setModal(!modal);
     setFinished(true);
   };
- 
 
-  const restartGame = (e)=> {
+  const restartGame = (e) => {
     setCases(initialArray);
     setDiv1(div1);
     setFinished(false);
     message.current = initialMessage;
-  }
+  };
   return (
     <>
       <h1 className="title-games"> Jeu du Morpion </h1>
@@ -96,8 +95,6 @@ export default function Morpion() {
           </div>
         ))}
       </div>
-
-     
     </>
   );
 }

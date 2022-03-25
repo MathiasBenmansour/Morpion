@@ -1,13 +1,13 @@
-body{
+body {
   background: rgb(37, 149, 214);
 }
 .description {
-    border: 1px solid black;
-    margin-top: 50px;
-    font-size: 18px;
-    padding: 22px;
-    background-color: antiquewhite;
-    animation: description 7s ease 0s infinite alternate both;
+  border: 1px solid black;
+  margin-top: 50px;
+  font-size: 18px;
+  padding: 22px;
+  background-color: antiquewhite;
+  animation: description 7s ease 0s infinite alternate both;
 }
 
 @keyframes description {
@@ -47,9 +47,8 @@ body{
   width: 40%;
   height: 500px;
   background-image: url(https://fr-minecraft.net/upload/wallpapers/images/fr-minecraft_wallpaper_HIX2.jpg);
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
-  
 }
 .title-redirect {
   display: flex;
@@ -73,4 +72,3 @@ body{
   border: none;
   background-color: rgba(134, 120, 102, 0.486);
 }
-
