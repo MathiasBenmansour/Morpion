@@ -1,18 +1,27 @@
 
 import "./navbar.css";
+import { Link, navLink } from "react-router-dom";
 function Navbar() {
+  
   return (
     <div className="nav-container">
+    <nav>
+      <Navlink to ="/tutorial" className="tuto-nav">
+         Tutoriels
+      </Navlink>
+      <Navlink to ="/games" className="game-nav">
+         Jeux
+      </Navlink>
+      <Navlink to ="/boutique" className="boutique-nav">
+      Boutique
+      </Navlink>
+      
+    </nav>
         
-      <a className="tuto-nav" href="tutorial">
-        Tutoriels
-      </a>
-      <a className="game-nav" href="games">
-        Jeux
-      </a>
-      <a className="boutique-nav" href="boutique">
-        Boutique
-      </a>
+      
+       
+     
+      
     </div>
   );
 }

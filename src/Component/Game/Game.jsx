@@ -3,6 +3,8 @@ import { nav, Link } from "react-router-dom";
 
 
 function Game() {
+  
+
   return (
     <div className="bg-Game">
     <div className="menu-games">

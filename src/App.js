@@ -18,11 +18,11 @@ function App() {
       
    <Routes>
   <Route path="/" element={<Home/>}/>
-  <Route path="games" element={<Game />}/>
-  <Route path="games/Snake" element={<Snake />}/>
-  <Route path="games/Morpion" element={<Morpion />}/>
-  <Route path="tutorial" element={<Tutorial />}/>
-  <Route path="boutique" element={< Boutique />}/>
+  <Route path="/games" element={<Game />}/>
+  <Route path="/games/Snake" element={<Snake />}/>
+  <Route path="/games/Morpion" element={<Morpion />}/>
+  <Route path="/tutorial" element={<Tutorial />}/>
+  <Route path="/boutique" element={< Boutique />}/>
 
 
 
