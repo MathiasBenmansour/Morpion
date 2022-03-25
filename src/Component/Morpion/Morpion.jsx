@@ -50,8 +50,9 @@ export default function Morpion() {
 
         if (val1 === "" || val2 === "" || val3 === "") {
           continue;
-        }
-        if (player[0] === val1 && val2 && val2 === val3) {
+        } 
+       
+        else if (player[0] === val1 && val2 && val2 === val3) {
           message.current = "Le joueur X a gagné";
           finishGame();
         } else if (player[1] === val1 && val2 && val2 === val3) {

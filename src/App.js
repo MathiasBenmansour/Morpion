@@ -8,6 +8,8 @@ import Navbar from './Component/Navbar/Navbar';
 import {Route, Routes} from 'react-router';
 import Snake from './Component/Snake/Snake';
 import Morpion from './Component/Morpion/Morpion';
+import Tutorial from './Component/Tutorial/Tutorial';
+import Boutique from './Component/Boutique/Boutique';
 
 function App() {
   return ( 
@@ -19,6 +21,10 @@ function App() {
   <Route path="games" element={<Game />}/>
   <Route path="games/Snake" element={<Snake />}/>
   <Route path="games/Morpion" element={<Morpion />}/>
+  <Route path="tutorial" element={<Tutorial />}/>
+  <Route path="boutique" element={< Boutique />}/>
+
+
 
 
   </Routes>
