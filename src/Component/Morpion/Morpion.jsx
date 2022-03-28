@@ -1,7 +1,5 @@
 import "./morpion.css";
-import { useEffect, useRef, useState } from "react";
-
-let score = 0;
+import { useRef, useState } from "react";
 
 const victorytemplate = [
   [0, 1, 2],
@@ -48,15 +46,12 @@ export default function Morpion() {
         let val2 = newCases[victorycondition[1]];
         let val3 = newCases[victorycondition[2]];
 
+        // si O est égale a 3 val alors
+
         if (val1 === "" || val2 === "" || val3 === "") {
           continue;
-        } 
-       
-        else if (player[0] === val1 && val2 && val2 === val3) {
-          message.current = "Le joueur X a gagné";
-          finishGame();
-        } else if (player[1] === val1 && val2 && val2 === val3) {
-          message.current = "Le joueur O a gagné";
+        } else if (val1 === val2 && val2 === val3) {
+          message.current = `Le joueur ${div1 ? "O" : "X"} a gagné`;
           finishGame();
         }
       }

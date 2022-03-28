@@ -1,13 +1,14 @@
-.nav-container {
-    display: flex;
-    justify-content: space-around;
-    margin: 24px auto;
-   
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 24px auto;
 }
 
-.tuto-nav,.game-nav,.boutique-nav{
-    font-size: 28px;
-    text-decoration: none;
-    font-style: italic;
-    color: beige;
+.tuto-nav,
+.game-nav,
+.boutique-nav {
+  font-size: 28px;
+  text-decoration: none;
+  font-style: italic;
+  color: beige;
 }

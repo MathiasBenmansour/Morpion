@@ -9,15 +9,16 @@
   display: flex;
   border: 2px px solid black;
   background: rgba(138, 193, 201, 0.377);
-  height: 500px;
+  height: 100%;
   width: 15%;
 }
 
 .listing-games {
   display: flex;
+  align-items: center;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: space-evenly;
+  align-content: center;
 }
 
 .snake,

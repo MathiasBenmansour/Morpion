@@ -1,27 +1,19 @@
-
 import "./navbar.css";
-import { Link, navLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 function Navbar() {
-  
   return (
     <div className="nav-container">
-    <nav>
-      <Navlink to ="/tutorial" className="tuto-nav">
-         Tutoriels
-      </Navlink>
-      <Navlink to ="/games" className="game-nav">
-         Jeux
-      </Navlink>
-      <Navlink to ="/boutique" className="boutique-nav">
-      Boutique
-      </Navlink>
-      
-    </nav>
-        
-      
-       
-     
-      
+      <nav>
+        <NavLink to="/tutorial" className="tuto-nav">
+          Tutoriels
+        </NavLink>
+        <NavLink to="/games" className="game-nav">
+          Jeux
+        </NavLink>
+        <NavLink to="/boutique" className="boutique-nav">
+          Boutique
+        </NavLink>
+      </nav>
     </div>
   );
 }
