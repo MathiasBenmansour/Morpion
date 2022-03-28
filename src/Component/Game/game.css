@@ -10,15 +10,14 @@
   border: 2px px solid black;
   background: rgba(138, 193, 201, 0.377);
   height: 100%;
-  width: 15%;
+  width: 200px;
 }
 
 .listing-games {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-content: center;
+  justify-content: flex-start;
 }
 
 .snake,
@@ -32,3 +31,4 @@ a:hover {
   color: red;
   text-decoration: underline;
 }
+

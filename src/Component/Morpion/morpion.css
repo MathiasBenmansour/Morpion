@@ -99,7 +99,7 @@
 
   button:hover {
     color: rgb(84, 197, 31);
-    font-size: 32px;
+    transform: scale(1.7);
     text-decoration: underline;
   }
 }

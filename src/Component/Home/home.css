@@ -3,11 +3,12 @@ body {
 }
 .description {
   border: 1px solid black;
-  margin-top: 50px;
-  font-size: 18px;
+  margin: 50px auto;
+  font-size: 22px;
+  width: 70%;
   padding: 22px;
   background-color: antiquewhite;
-  animation: description 7s ease 0s infinite alternate both;
+  animation: description 10s ease 0s infinite alternate both;
 }
 
 .form-log {
@@ -60,10 +61,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  margin: 32px auto;
+  margin: 20px auto;
   border: 2px solid black;
   width: 40%;
-  height: 500px;
+  height: 400px;
   background-image: url(https://fr-minecraft.net/upload/wallpapers/images/fr-minecraft_wallpaper_HIX2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
