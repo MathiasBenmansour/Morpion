@@ -30,3 +30,8 @@
     border-radius: 8%;
     background: rgba(153, 142, 142, 0.021);
 }
+
+.snake {
+  background: #000;
+  width: 5%;
+}

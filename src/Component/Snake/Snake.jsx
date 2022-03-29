@@ -13,6 +13,8 @@ function Snake() {
   setModal(false)
   }
 
+  let snakeBoard = []
+
   return (
     <div className="bg-snake">
       {modal ? (
@@ -33,9 +35,7 @@ function Snake() {
         </h1>
       ) : (
         <div className="container-snake">
-          <div className="Title-Snake">
-            <h1 className="title-snake">Patience ... </h1>
-          </div>
+         <div className="snake">{snakeBoard}</div>
         </div>
       )}
     </div>
