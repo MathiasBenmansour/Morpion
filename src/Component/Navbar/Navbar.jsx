@@ -7,11 +7,11 @@ function Navbar() {
         <NavLink to="/tutorial" className="tuto-nav">
           Tutoriels
         </NavLink>
+        <NavLink to="/project" className="project-nav">
+          Projets
+        </NavLink>
         <NavLink to="/games" className="game-nav">
           Jeux
-        </NavLink>
-        <NavLink to="/boutique" className="boutique-nav">
-          Boutique
         </NavLink>
       </nav>
     </div>

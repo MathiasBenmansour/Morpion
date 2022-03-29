@@ -1,0 +1,51 @@
+.title-home {
+  background: rgb(153, 125, 125);
+  color: blanchedalmond;
+  font-style: italic;
+  margin: auto;
+  font-size: 42px;
+  width: 30%;
+}
+
+.container-project {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url(/home/mat/Bureau/Morpion/src/images/projects/bg-project.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+.movie-idle {
+  display: flex;
+    margin: 32px auto;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-morpion {
+  width: 40%;
+}
+
+.img-office {
+  width: 40%;
+}
+.img-dofus {
+  width: 70%;
+}
+
+li {
+  color: aliceblue;
+  font-size: 32px;
+}

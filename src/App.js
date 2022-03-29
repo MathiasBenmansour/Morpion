@@ -7,7 +7,7 @@ import {Route, Routes} from 'react-router';
 import Snake from './Component/Snake/Snake';
 import Morpion from './Component/Morpion/Morpion';
 import Tutorial from './Component/Tutorial/Tutorial';
-import Boutique from './Component/Boutique/Boutique';
+import Project from './Component/Projets/Projects';
 
 function App() {
   return ( 
@@ -20,7 +20,7 @@ function App() {
   <Route path="/games/Snake" element={<Snake />}/>
   <Route path="/games/Morpion" element={<Morpion />}/>
   <Route path="/tutorial" element={<Tutorial />}/>
-  <Route path="/boutique" element={< Boutique />}/>
+  <Route path="/project" element={< Project />}/>
 
 
 
